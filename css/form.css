@@ -1,0 +1,94 @@
+body{
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+header nav ul li a:hover{
+    background: black;
+    color: white;
+}
+.cta{
+    display: flex;
+}
+section#form{
+    padding: 10px 40px;
+    width: 60%;
+}
+section#mainimg{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+section#mainimg img{
+    width: 80%;
+}
+section#mainimg .hero-text{
+    font-size: 40px;
+    text-align: center;
+}
+section#form .form-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+input, select{
+    border: none;
+    background-color: aliceblue;
+    font-size: 16px;
+    padding: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 100%;
+    transition: 200ms all ease-in-out;
+}
+input:hover, select:hover{
+    border: 1px solid royalblue;
+}
+section#form form{
+    width: 70%;
+}
+
+section#form form .duet{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+section#form form .duet div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+}
+.t_c p{
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.t_c .btn{
+    background-color: royalblue;
+    color: #fff;
+    font-weight: 500;
+}

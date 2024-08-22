@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+header nav ul li a:hover{
+    background: black;
+    color: white;
+}

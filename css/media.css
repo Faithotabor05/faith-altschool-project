@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main{
+    background: #ccc;
+    padding: 50px;
+}
+main section{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #242424;
+    color: #fff;
+    padding: 50px;
+}
+footer section a#scroll{
+    background: #fff;
+    color: #000;
+    padding:1px;
+    margin: 2px;
+    text-decoration: none;
+
+
+}
